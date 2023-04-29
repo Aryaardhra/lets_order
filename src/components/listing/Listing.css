@@ -1,0 +1,416 @@
+#mainListing{
+    margin-left: 15%;
+    margin-top: 5%;  
+}
+
+.filter{
+    height:500px;
+    width: 10px;
+    margin-left: -11%;
+background-color:cornsilk;
+}
+
+.listing_out{
+    
+}
+#content{
+    width:65%;
+    float: left;
+    margin-left: 5%;
+    margin-top: -94%;
+
+}
+
+.item {
+    width: 600px;
+    height: 250px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 55%;
+    background-color: antiquewhite;
+}
+
+.Image {
+    width: 291px;
+    height: 235px;
+    border-radius: 23px;
+    background-color: #ea6060;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.hotel_name {
+    width: 100%;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 57%;
+    margin-top: -36%;
+}
+
+.city_name {
+    width: 100%;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.rating {
+    line-height: 5.4;
+}
+
+@media screen and (max-width:1600px) {
+
+    .filter{
+        height:500px;
+        width: 10px;
+        margin-left: -11%;
+    background-color:blue;
+    }
+    
+}
+
+@media screen and (max-width:1400px){
+
+    .filter{
+        height:500px;
+    width: 10px;
+    margin-left: 5%;
+    background-color:rgb(199, 182, 192);
+    }
+    
+    #mainListing{
+        margin-left: 15%;
+        margin-top: 18%; 
+    }
+
+    .item {
+        width: 599px;
+        height: 243px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 42%;
+    background-color: antiquewhite;
+    }
+
+    .Image {
+        width: 230px;
+        height: 228px;
+        border-radius: 23px;
+        background-color: #ea6060;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .hotel_name {
+        width: 100%;
+        height: 43px;
+        font-family:"Ysabeau variant0";
+        font-size: 21px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 46%;
+        margin-top: -36%;
+    }
+    
+    .city_name {
+        width: 100%;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: -12%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width:1200px){
+        
+        .filter{
+            height:500px;
+        width: 10px;
+        margin-left: 5%;
+        background-color:rgb(199, 182, 192);
+        }
+
+        #mainListing{
+            margin-left: 17%;
+    margin-top: 14%; 
+        }
+    
+        .item {
+            width: 599px;
+            height: 243px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        margin-bottom: 20px;
+        margin-left: 42%;
+        background-color: antiquewhite;
+        }
+    
+        .Image {
+            width: 230px;
+            height: 228px;
+            border-radius: 23px;
+            background-color: #ea6060;
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+    
+        .hotel_name {
+            width: 100%;
+            height: 43px;
+            font-family:"Ysabeau variant0";
+            font-size: 21px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            margin-left: 46%;
+            margin-top: -36%;
+        }
+        
+        .city_name {
+            width: 100%;
+            height: 23px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #192f60;
+            margin-left: -12%;
+            padding-left: 10%;
+        }
+    }
+    
+
+
+@media screen and (max-width:1000px){
+
+    .filter{
+        height:500px;
+    width: 10px;
+    margin-left: 5%;
+    background-color:rgb(199, 182, 192);
+    }
+
+    #mainListing{
+        margin-left: 19%;
+        margin-top: 0%;
+    }
+
+    .item {
+        width: 599px;
+        height: 243px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 42%;
+    background-color: antiquewhite;
+    }
+
+    .Image {
+        width: 230px;
+        height: 228px;
+        border-radius: 23px;
+        background-color: #ea6060;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .hotel_name {
+        width: 100%;
+        height: 43px;
+        font-family:"Ysabeau variant0";
+        font-size: 21px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 46%;
+        margin-top: -36%;
+    }
+    
+    .city_name {
+        width: 100%;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: -12%;
+        padding-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+
+    .filter{
+        height:500px;
+    width: 10px;
+    margin-left: 5%;
+    background-color:rgb(221, 40, 145);
+    }
+
+    #mainListing{
+        margin-left: 19%;
+        margin-top: 0%;
+    }
+
+    .item {
+        width: 599px;
+        height: 243px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 42%;
+    background-color: antiquewhite;
+    }
+
+    .Image {
+        width: 230px;
+        height: 228px;
+        border-radius: 23px;
+        background-color: #ea6060;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .hotel_name {
+        width: 100%;
+        height: 43px;
+        font-family:"Ysabeau variant0";
+        font-size: 21px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 46%;
+        margin-top: -36%;
+    }
+    
+    .city_name {
+        width: 100%;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: -12%;
+        padding-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+    .filter{
+        height:500px;
+    width: 10px;
+    margin-left: 5%;
+    background-color:rgb(55, 221, 40);
+    }
+
+    #mainListing{
+        margin-left: 19%;
+        margin-top: 0%;
+    }
+
+    .item {
+        width: 599px;
+        height: 243px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    margin-left: 42%;
+    background-color: antiquewhite;
+    }
+
+    .Image {
+        width: 230px;
+        height: 228px;
+        border-radius: 23px;
+        background-color: #ea6060;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    .hotel_name {
+        width: 100%;
+        height: 43px;
+        font-family:"Ysabeau variant0";
+        font-size: 21px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: 46%;
+        margin-top: -36%;
+    }
+    
+    .city_name {
+        width: 100%;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        margin-left: -12%;
+        padding-left: 10%;
+    }
+    
+}
+
