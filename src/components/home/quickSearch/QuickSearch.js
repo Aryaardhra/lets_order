@@ -8,7 +8,6 @@ class QuickSearch extends Component{
 
   constructor(){
     super()
-
     this.state = {
       mealType:''
     }
@@ -19,12 +18,10 @@ class QuickSearch extends Component{
             <div className="container-fluid ">
                 <div className="row">
                     <div className="quick_search ">
-                    <span className="quick_search_heading ">QuickSearch</span>
-                  <p id="sub_heading">Find Restaurant By MealType</p>
-                 
-                     <QuickDisplay mealData={this.state.mealType}/>
-                     </div>
-                    
+                      <span className="quick_search_heading ">QuickSearch</span>
+                      <p id="sub_heading">Find Restaurant By MealType</p>
+                      <QuickDisplay mealData={this.state.mealType}/>
+                    </div>  
                 </div>
             </div>
         )

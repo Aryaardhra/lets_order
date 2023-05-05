@@ -16,15 +16,13 @@ class Listing extends Component{
         return(
            <>
            <div className="row">
-            
-                <div className="filter border col-md-3 m-5">
+                <div className="filter  col-md-3 col-2 border  m-5">
                     sfdfd
                 </div >
                 <div className="listing_out col-md-9">
-                < div id="mainListing">
-                    
-                <ListingDisplay listData = {this.state.restaurantList}/>
-                </div>
+                   < div id="mainListing">
+                      <ListingDisplay listData = {this.state.restaurantList}/>
+                   </div>
                 </div>
            </div>
         </>

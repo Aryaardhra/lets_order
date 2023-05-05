@@ -2,7 +2,6 @@
     background-color:#3b2632 !important;
     height: 50px;
 }
-
 #brand{
     color: white;
     font-size: 30px;
@@ -10,16 +9,13 @@
     margin-left: 2%;
     margin-top: 0.5%;
 }
-
-
  #social{
     float: right;
     margin-top: 0.5%;
     margin-left: 80%;
     padding-bottom: 0.5%;
     position: absolute;
-    }
-
+}
 .socialIcon{
     height: 50px;
     width: 50px;

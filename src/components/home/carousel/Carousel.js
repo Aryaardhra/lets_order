@@ -48,37 +48,44 @@ class Carousel extends Component {
     <>
     <div className="img_slide">
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="https://i.ibb.co/YTmhP0J/HD-wallpaper-indian-restaurant-san-francisco-deccan-house-sf-north-indian-food.jpg" className="img" alt="..."/>
-      <div className="carousel-caption ">
-      <div id ="logo ">
-         <img  id ="imglogo" src="https://i.ibb.co/HNzMfXW/lets-order-logo-header-food-ordering-commision-free-1-e1600758931443.png" alt="background img"/>
-     </div>  
+        <div className="carousel-inner">
+        <div className="carousel-item active">
+           <img src="https://i.ibb.co/YTmhP0J/HD-wallpaper-indian-restaurant-san-francisco-deccan-house-sf-north-indian-food.jpg" 
+           className="img" 
+           alt="..."
+           />
+        <div className="carousel-caption ">
+        <div id ="logo ">
+           <img  id ="imglogo" src="https://i.ibb.co/HNzMfXW/lets-order-logo-header-food-ordering-commision-free-1-e1600758931443.png"
+           alt="background img"
+           />
+        </div>  
         <h5>Search Place Near To You</h5>
         <div className="search">
-            <div className="box_2">
-        <select 
-        onChange={this.handleCity}
-        className="form-select form-select-sm" 
-        aria-label=".form-select-sm example"
-        
-        >
-  <option >Select City</option>
-  {this.renderCity(this.state.location)}
-</select>
-</div>
-<div className="box_2">
-<select className="form-select form-select-sm " aria-label=".form-select-sm example">
-  <option >Select Restaurants</option>
-  {this.renderRest(this.state.restData)}
-</select>
-        </div>
+        <div className="box_2">
+           <select 
+            onChange={this.handleCity}
+            className="form-select form-select-sm" 
+            aria-label=".form-select-sm example"
+           >
+           <option >Select City</option>
+           {this.renderCity(this.state.location)}
+           </select>
+         </div>
+       <div className="box_2">
+          <select 
+            className="form-select form-select-sm " 
+            aria-label=".form-select-sm example"
+            >
+           <option >Select Restaurants</option>
+           {this.renderRest(this.state.restData)}
+         </select>
+       </div>
       </div>
       </div>
-    </div>
-</div>
-    </div>
+      </div>
+      </div>
+      </div>
     </div>
     </>
   )

@@ -5,27 +5,32 @@ import Loading from "../loading/Loading";
 const ListingDisplay = (props) => {
 
     const renderData = ({listData}) => {
+
         if(listData){
             if(listData.length>0){
                return listData.map((item) => {
-                return(
+                return( 
                     <div className="item" key = {item._id}>
                         <div className="row">
-                            <div className="">
-                                <img src = {item.restaurant_thumb} className="Image"
-                                alt = {item.restaurant_name}/>
-                            </div>
-                            <div className="">
-                                <div className=" hotel_name">
-                                    <Link to = {`/details?restId=${item._id}`}>
-                                        {item.restaurant_name}
-                                    </Link>
-                                    <div className="city_name"> {item.address} </div>
-                                    <div className="city_name"> {item.rating_text} </div>
-                                    <div className="city_name"> Rs.{item.cost} </div>                
-                                </div>
-                            </div>
-                        </div>
+                        <div className="container">
+                           <div className="img_section ">
+                            <img src={item.restaurant_thumb}  className="rounded-start" alt="lunch"/>
+                           </div>
+                           <div className="info_section">
+                           <div className="res_heading">
+                              <Link to = {`/details?restId=${item.restaurant_id}`}>
+                                 {item.restaurant_name}
+                              </Link>
+                           </div>
+                           <div className="res_details">
+                              {item.address}&nbsp;
+                             <p>{item.rating_text}</p>
+                             <p>{item.cost}</p>
+                           </div>
+              
+                          </div>
+                       </div>
+                       </div>
                     </div>
                 )
                })
