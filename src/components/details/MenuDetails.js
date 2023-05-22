@@ -28,11 +28,11 @@ class MenuDetails extends Component{
 
 
     renderMenu = ({menudata}) => {
-       // console.log(menudata)
+       //console.log(menudata)
         if(menudata){
-           // console.log(menudata)
+          // console.log(menudata)
             return menudata.map((item) => {
-               // console.log(menudata)
+              // console.log(menudata)
                
                 return(
                     
